@@ -426,7 +426,7 @@ echo:
 echo Applying registration details...
 echo:
 
-If not defined name set name=Piash
+If not defined name set name=PC
 
 set "reg=HKCU\SOFTWARE\DownloadManager /v FName /t REG_SZ /d "%name%"" & call :_rcont
 set "reg=HKCU\SOFTWARE\DownloadManager /v LName /t REG_SZ /d """ & call :_rcont
